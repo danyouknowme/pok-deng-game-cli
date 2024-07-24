@@ -1,0 +1,21 @@
+{
+	"name": "pok-deng-game-cli",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "node dist/index.js",
+		"dev": "ts-node src/index.ts",
+		"build": "npm run clean && tsc",
+		"clean": "rm -rf dist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/danyouknowme/pok-deng-game-cli.git"
+	},
+	"author": "Thanathip Suwannakhot",
+	"license": "ISC",
+	"devDependencies": {
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.5"
+	}
+}

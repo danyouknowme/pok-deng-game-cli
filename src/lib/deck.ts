@@ -2,10 +2,14 @@ import { cards } from "./card";
 import type { Card } from "./card";
 
 export class Deck {
-	public _cards: Card[];
+	private _cards: Card[];
 
 	public constructor() {
 		this._cards = cards;
+	}
+
+	public get cards(): Card[] {
+		return this._cards;
 	}
 
 	public getPlayerCards(): Card[] {

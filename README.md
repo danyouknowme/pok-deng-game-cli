@@ -34,5 +34,5 @@
 
 6. Start game.
      ```bash
-     npm run start
+     npm start
      ```

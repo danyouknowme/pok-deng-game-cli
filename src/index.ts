@@ -24,7 +24,6 @@ function playRound(rl: readline.Interface, balance: number, callback: (balance: 
 		if (calculatedScore > 0) {
 			console.log(`You won!!!, received ${bet} chips`);
 			balance += bet;
-			console.log("You win!");
 		} else if (calculatedScore === 0) {
 			console.log("It's a draw!");
 		} else {

@@ -6,7 +6,8 @@
 		"start": "node dist/index.js",
 		"dev": "ts-node src/index.ts",
 		"build": "npm run clean && tsc",
-		"clean": "rm -rf dist"
+		"clean": "rm -rf dist",
+		"test": "jest"
 	},
 	"repository": {
 		"type": "git",
@@ -15,7 +16,13 @@
 	"author": "Thanathip Suwannakhot",
 	"license": "ISC",
 	"devDependencies": {
+		"jest": "^29.7.0",
 		"ts-node": "^10.9.2",
 		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"@jest/globals": "^29.7.0",
+		"@types/jest": "^29.5.12",
+		"ts-jest": "^29.2.3"
 	}
 }
